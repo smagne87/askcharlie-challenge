@@ -1,0 +1,4 @@
+{
+  // Added stage-3 to use spread operator in tests
+  "presets": ["es2015", "stage-3"]
+}

@@ -1,0 +1,40 @@
+& .email-list-container{
+  width: 100%;
+
+  & .toolbar{
+    padding: 10px;
+    text-align: right;
+  }
+
+  & .email-list, & .email-detail{
+    position: relative;
+    width: 50%;
+    padding: 0px 10px;
+  }
+  & .email-list{
+    & div:hover{
+      background-color: rgba(50, 57, 47, 0.83);
+    }
+    & .unread, .read{
+      cursor: pointer;
+      border-bottom: 1px solid #000;
+      background-color: #fff;
+      font-style: italic;
+      padding-top:10px;
+      a{
+        font-style: normal;
+        text-decoration: none;
+        color: #080808;
+        font-size: 12px;
+      }
+    }
+    & .read{
+      border-bottom: 1px solid #000;
+      background-color: transparent;
+      font-style: normal;
+    }
+    & .selected{
+      background-color: beige;
+    }
+  }
+}
